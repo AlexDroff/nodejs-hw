@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "Introduction to backend development with Node.js. Setting up a working environment, understanding core concepts, learning Express, middleware, REST APIs, and deployment.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexDroff/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexDroff/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/AlexDroff/nodejs-hw#readme"
+}
