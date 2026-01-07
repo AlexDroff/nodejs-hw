@@ -33,10 +33,11 @@ app.get('/notes', (req, res) => {
 });
 
 app.get('/notes/:noteId', (req, res) => {
-  res.status(200).json({ message: 'Retrieved note with ID: id_param' });
+  const { noteId } = req.params;
+  res.status(200).json({ message: `Retrieved note with ID: ${noteId}` });
 });
 
-app.get('/test-error', () => {
+app.get('/test-error', (req, res, next) => {
   throw new Error('Simulated server error');
 });
 
