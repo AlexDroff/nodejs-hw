@@ -1,27 +1,21 @@
-# Module 1. Node.js Fundamentals
+Module 1. Node.js Fundamentals
+Description
+Core introduction to backend development with Node.js, environment setup, REST concepts, and Express fundamentals.
 
-## Description
-Introduction to backend development with Node.js. Setting up a working environment, understanding core concepts, learning Express, middleware, REST APIs, and deployment.
-
----
-
-## Lesson 1. Introduction to Node.js
-- Initializing a Node.js project
-- Running JavaScript outside the browser
-- Setting up the development environment
-- Built-in Node.js modules
-- Buffer data type
-- Frontend vs Backend
-- Understanding REST API
-- Working with Postman
-
----
-
-## Lesson 2. Getting Started with Express
-- Introduction to Express framework
-- Dynamic route parameters
-- Express middleware fundamentals
-- Handling non-existing routes
-- Using external middleware libraries
-- Environment variables
-- Backend deployment basics
+Topics
+Introduction to Node.js
+Initializing a Node.js project
+Running JavaScript outside the browser
+Development environment setup
+Built-in Node.js modules
+Buffer data type
+Frontend vs Backend
+REST API
+Postman for API testing
+Introduction to Express
+Dynamic route parameters
+Express middleware
+Middleware for non-existing routes
+Using middleware libraries
+Environment variables
+Backend deployment
