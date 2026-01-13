@@ -30,6 +30,15 @@ export const getAllNotes = async (req, res, next) => {
   }
 };
 
+export const createNote = async (req, res, next) => {
+  try {
+    const note = await Note.create(req.body);
+    res.status(201).json(note);
+  } catch (err) {
+    next(err);
+  }
+};
+
 export const getNoteById = async (req, res, next) => {
   try {
     const { noteId } = req.params;
